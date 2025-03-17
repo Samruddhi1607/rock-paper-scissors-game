@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  >
+   
+    <h1>Rock Paper Scissors Game</h1>
+    <div class="rules-container">
+        <p class="clickable" onclick="revealParagraph()">Rule Of This Game </p>
+      <p id="hiddenParagraph">ROCK : The rock is when you place your hand into the form of a simple fist. <br>
+        PAPER : The paper is when you place your hand in an outstretched position. <br>
+        SCISSORS : This is when you hold your fist with your index and middle finger pointing outwards in a V shape. <br>
+       <b>The Basic Rules of RPS</b> <br>
+        Despite its underlying complexity, the game’s rules are straightforward. <br>
+        Players deliver hand signals representing rock, paper, or scissors, <br>
+        with the outcome determined by these three rules:
+        1. Rock wins against scissors.
+        2. Scissors win against paper.
+        3. Paper wins against rock.
+    </p>
+    </div>
+         
+    <div class="choices">
+        <div class="choice" id="rock"><img src="rock.webp" alt=""></div>
+        <div class="choice" id="paper"><img src="paper.webp" alt=""></div>
+        <div class="choice" id="scissors"><img src="scissor.jpeg" alt=""></div>
+    </div>
+
+    <div class="board">
+            <div class="score">
+                <p id="user">0</p>
+                <p>You</p>
+            </div>
+
+            <div class="score">
+                <p id="comp">0</p>
+                <p>Computer</p>
+            </div>
+    </div>
+    <div class="msg">
+      <div id="p">Ready To Play</div> 
+    </div>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
